@@ -11,8 +11,8 @@ function Footer() {
                    <DraftsIcon style={{color:'#7B68EE'}}/><h1 className="text-primaryText font-bold text-2xl leading-9 font-primaryFontFamily">Estary</h1>
                    </div>
 
-               <div className='grid grid-cols-3 gap-y-8 w-[75%] items-baseline'>
-                   <div className='sell_a_home grid gap-y-3'>
+               <div className='grid grid-cols-3 gap-y-10 w-[75%] items-baseline'>
+                   <div className='sell_a_home grid gap-y-6'>
                        <p className='text-xl text-primaryText leading-normal font-primaryFontFamily font-semibold'>SELL A HOME</p>
                         <div className='sell_home_link'>
                            <ul className='grid gap-y-2'>
@@ -24,7 +24,7 @@ function Footer() {
                         </div>
                    </div>
 
-                   <div className='buy_rent_sell grid gap-y-3'>
+                   <div className='buy_rent_sell grid gap-y-6'>
                        <p className='text-xl text-primaryText leading-normal font-primaryFontFamily font-semibold'>BUY, RENT AND SELL</p>
                         <div className='buy_rent_link'>
                              <ul className='grid gap-y-2'>
@@ -35,7 +35,7 @@ function Footer() {
                         </div>
                    </div>
 
-                   <div className='footer_about grid gap-y-3'>
+                   <div className='footer_about grid gap-y-6'>
                       <p className='text-xl text-primaryText leading-normal font-primaryFontFamily font-semibold'>ABOUT</p>
                         <ul className='grid gap-y-2'>
                             <li className='text-lg text-primaryText leading-normal font-primaryFontFamily font-normal opacity-60'><Link to='/'>Company</Link></li>
@@ -45,7 +45,7 @@ function Footer() {
                         </ul>
                    </div>
 
-                   <div className='footer_buy_home pr-6 grid gap-y-3'>
+                   <div className='footer_buy_home pr-6 grid gap-y-6'>
                       <p className='text-xl text-primaryText leading-normal font-primaryFontFamily font-semibold'>BUY A HOME</p>
                         <ul className='grid gap-y-2'>
                             <li className='text-lg text-primaryText leading-normal font-primaryFontFamily font-normal opacity-60'><Link to='/'>Buy</Link></li>
@@ -53,7 +53,7 @@ function Footer() {
                         </ul>
                    </div>
 
-                   <div className='footer_terms_privary pr-8 grid gap-y-3'>
+                   <div className='footer_terms_privary pr-8 grid gap-y-6'>
                       <p className='text-xl text-primaryText leading-normal font-primaryFontFamily font-semibold'>TERMS & PRIVACY</p>
                         <ul className='grid gap-y-2'>
                             <li className='text-lg text-primaryText leading-normal font-primaryFontFamily font-normal opacity-60'><Link to='/'>Trust & Safety</Link></li>
@@ -62,7 +62,7 @@ function Footer() {
                         </ul>
                    </div>
 
-                   <div className='footer_terms_privary grid gap-y-3'>
+                   <div className='footer_terms_privary grid gap-y-6'>
                       <p className='text-2xl text-primaryText leading-normal font-primaryFontFamily font-semibold'>Resources</p>
                         <ul className='grid gap-y-2'>
                             <li className='text-lg text-primaryText leading-normal font-primaryFontFamily font-normal opacity-60'><Link to='/'>Blog</Link></li>
