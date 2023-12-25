@@ -1,17 +1,22 @@
 import DraftsIcon from '@mui/icons-material/Drafts';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
+import React from 'react';
 
-function Footer() {
+const Footer: React.FC = () =>{
   return (
     <footer>
       <section>
          <div className="footer_container max-w-mainscreenSize mx-auto">
-             <div className="footer_rows flex items-start">
-                   <div className="footer_heading flex gap-x-2 items-center w-[20%]">
+             <div className="footer_rows flex items-start my-12 mobile:flex-wrap mobile:flex-col mobile:items-center mobile:gap-y-6">
+                   <div className="footer_heading flex gap-x-2 items-center w-[20%] mobile:w-[unset]">
                    <DraftsIcon style={{color:'#7B68EE'}}/><h1 className="text-primaryText font-bold text-2xl leading-9 font-primaryFontFamily">Estary</h1>
                    </div>
 
-               <div className='grid grid-cols-3 gap-y-10 w-[75%] items-baseline'>
+               <div className='grid grid-cols-3 gap-y-10 w-[75%] items-baseline mobile:grid-cols-1 mobile:w-[unset]'>
                    <div className='sell_a_home grid gap-y-6'>
                        <p className='text-xl text-primaryText leading-normal font-primaryFontFamily font-semibold'>SELL A HOME</p>
                         <div className='sell_home_link'>
@@ -74,6 +79,22 @@ function Footer() {
                 </div>
              </div>
          </div>
+       </section>
+
+       <section className='copyrights_section border-t-2'>
+           <div className='copyrights_container max-w-mainscreenSize mx-auto py-8'>
+                <div className='copyrights_rows flex justify-between items-center'>
+                    <div className='copyrights'>
+                       <p className='text-textSecondary text-sm font-normal leading-normal font-primaryFontFamily'>2021 Estary. All rights reserved</p>
+                    </div>
+                    <div className='social_media_icons flex items-center gap-x-6'>
+                         <FacebookIcon style={{color:'#7B68EE'}} />
+                         <InstagramIcon style={{color:'#7B68EE'}} />
+                         <TwitterIcon style={{color:'#7B68EE'}} />
+                         <LinkedInIcon style={{color:'#7B68EE'}} />
+                    </div>
+                </div>
+           </div>
        </section>
     </footer>
   )

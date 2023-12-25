@@ -1,14 +1,16 @@
 import { Link } from "react-router-dom"
 import DraftsIcon from '@mui/icons-material/Drafts';
+import React from "react";
 
-function Header() {
+
+const Header:React.FC = () => {
   return (
      <>
         <header>
-              <div className="max-w-mainscreenSize mx-auto my-4">
+              <div className="max-w-mainscreenSize mx-auto my-8">
                  <div className="header_rows flex justify-between items-center">
                      <div className="header_title flex items-center gap-x-2">
-                          <DraftsIcon style={{color:'#7B68EE'}}/><h1 className="text-primaryText font-bold text-2xl leading-9 font-primaryFontFamily">Estary</h1>
+                          <DraftsIcon style={{color:'#7B68EE'}}/><Link to="/"><h1 className="text-primaryText font-bold text-2xl leading-9 font-primaryFontFamily">Estary</h1></Link>
                      </div>
 
                       <div className="nav_menu">
@@ -25,10 +27,10 @@ function Header() {
 
                      <div className="rows_login_signup flex items-center gap-x-4">
                            <div className="login_button">
-                                <button className="rounded-md py-2 px-8 border-primaryBorder border-2 text-lg font-normal text-primaryText leading-normal font-primaryFontFamily">Login</button>
+                                <Link to="/login" className="rounded-md py-3 px-6 border-primaryBorder border-2 text-lg font-normal text-primaryText leading-normal font-primaryFontFamily">Login</Link>
                            </div>
                            <div className="signup_button">
-                               <button className="bg-btnColor text-secondaryText px-8 py-2 rounded-md text-lg font-normal leading-normal">Signup</button>
+                               <Link to="/signup" className="bg-btnColor text-secondaryText px-8 py-3 rounded-md text-lg font-normal leading-normal">Signup</Link>
                            </div>
                      </div>
 
