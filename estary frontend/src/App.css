@@ -10,3 +10,9 @@
   src: url('./assets/font/Roboto-Regular.woff') format('woff');
   font-weight: 400;
 }
+
+@font-face {
+  font-family: "Oswald";
+  src: url('./assets/font/Oswald-Regular.woff') format('woff');
+  font-weight: 400;
+}
