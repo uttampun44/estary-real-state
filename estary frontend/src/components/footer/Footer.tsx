@@ -11,7 +11,7 @@ function Footer() {
                    <DraftsIcon style={{color:'#7B68EE'}}/><h1 className="text-primaryText font-bold text-2xl leading-9 font-primaryFontFamily">Estary</h1>
                    </div>
 
-               <div className='grid grid-cols-3 gap-y-8 w-[75%]'>
+               <div className='grid grid-cols-3 gap-y-8 w-[75%] items-baseline'>
                    <div className='sell_a_home grid gap-y-3'>
                        <p className='text-xl text-primaryText leading-normal font-primaryFontFamily font-semibold'>SELL A HOME</p>
                         <div className='sell_home_link'>
