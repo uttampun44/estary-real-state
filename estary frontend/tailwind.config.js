@@ -12,7 +12,8 @@ export default {
       colors:{
         'primaryText': '#000929',
         'secondaryText': '#F0F8FF',
-
+        'textColor': '#7B68EE',
+        'textSecondary': '#808080'
       },
       borderColor:{
         'primaryBorder': '#E6E6FA'
